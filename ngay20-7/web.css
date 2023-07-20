@@ -1,0 +1,98 @@
+header div{
+   text-align: center;
+   color: #fff;
+   
+}
+header{
+    background-color: gray;
+    padding: 20px;
+    background-image: url(1123013.jpg);
+}
+header img{
+    height: 45px;
+    top: 1px;
+    position: absolute;
+    left: 45%;
+    margin-left: -15px;
+    width: 100px;
+   background-color: transparent;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"], input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+input[type="button"], input[type="submit"]:hover{
+    background-color: #45a049;
+    
+
+}
+#Thongbao{
+    font-weight: bold;
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: aquamarine;
+    background-image: url(1123013.jpg);
+    color: #fff;
+}
+/* Small screen - acts like the app would */
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #584f4d;
+    }
+    #page {
+        max-width: 480px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+/* Larger screens act like a demo for the app */
+@media only screen and (min-width: 960px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+   	}
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    h1{
+        background-image: url(../images/2xkinglogo.png);
+        background-size: 72px 72px;
+    }
+}
