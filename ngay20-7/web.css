@@ -3,6 +3,9 @@ header div{
    color: #fff;
    
 }
+main{
+    background-color: #fff;
+}
 header{
     background-color: gray;
     padding: 20px;
